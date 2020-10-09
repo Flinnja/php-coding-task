@@ -11,4 +11,8 @@ final class DownloadLog extends ActiveRecord
 
     /* @var int */
     private $userId;
+
+    public function isModified():bool{
+    	return $this->isModified;
+    }
 }

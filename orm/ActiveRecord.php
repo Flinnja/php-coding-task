@@ -2,7 +2,7 @@
 
 namespace Orm;
 
-use ActiveRecordInterface;
+include_once('./ActiveRecordInterface.php');
 
 /**
  * ActiveRecord
